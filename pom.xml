@@ -39,7 +39,12 @@
       <plugin>
         <groupId>org.eluder.coveralls</groupId>
         <artifactId>coveralls-maven-plugin</artifactId>
-        <version>4.1.0</version>
+        <version>4.2.0</version>
+	<configuration>
+	  <sourceDirectories>
+	    <sourceDirectory>src/main/java/sig/oss</sourceDirectory>
+	  </sourceDirectories>
+	</configuration>
       </plugin>
     </plugins>
   </build>
